@@ -1,0 +1,31 @@
+
+h1 
+{
+  color: blue;
+  font-family: arial;
+  font-size: 1200%;
+  text-align:left
+}
+
+.vertical-menu
+{
+  width: 300px;
+  font-family: arial;
+}
+
+.vertical-menu a
+{
+  background-color: white;
+  font-family: arial; 
+  color: blue; 
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+
+.vertical-menu a.active
+{
+  background-color: yellow; 
+  color: blue;
+}
