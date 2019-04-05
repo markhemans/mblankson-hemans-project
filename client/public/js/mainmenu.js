@@ -2,7 +2,7 @@ document.body.onkeyup = function(spacebar)
 {
     if(spacebar.keyCode == 49)
     {
-		window.open('trail')
+		window.location.replace('trail');
     }
     if(spacebar.keyCode == 50)
     {
@@ -10,7 +10,7 @@ document.body.onkeyup = function(spacebar)
     }
     if(spacebar.keyCode == 51)
     {
-		window.open('topten')
+		window.location.replace('topten');
     }
     if(spacebar.keyCode == 52)
     {

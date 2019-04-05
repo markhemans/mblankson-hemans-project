@@ -17,13 +17,14 @@ var players = [
 ];
 
 
-function createList(addplayers)
+function createList(addplayers[])
 {
   var topScores = [];
   for (i=0; i<addplayers.length; i++)
   {
    topScores.push(addplayers[i]);
   }
+  return topScores;
 }
-
-console.log(createList(players));
+createList(players);
+console.log(players);

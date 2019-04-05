@@ -2,7 +2,7 @@ document.body.onkeyup = function(spacebar)
 {
     if(spacebar.keyCode == 32)
     {
-    window.open('mainmenu')
+    	window.location.replace('mainmenu');
 	}
 }
 
@@ -10,5 +10,5 @@ document.body.onkeyup = function(spacebar)
 document.getElementById('flash').addEventListener("click", openmenu);
 function openmenu()
 	{
-	window.open('mainmenu')
+	window.location.replace('mainmenu');
 	}
