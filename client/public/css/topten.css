@@ -6,7 +6,12 @@ img
 }
 p 
 {
-  color: blue;
+  color: white;
   font-family: arial;
   font-size: 100%;
+}
+body, html
+{
+	background-image: url("/images/sky4.jpg");
+	height: 100%;
 }
